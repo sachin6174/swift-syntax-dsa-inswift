@@ -42,3 +42,19 @@ function4(a: true)
 func function5 (a: Int ,b: Int) -> Int{
     return a+b
 }
+
+// return without return keyword
+func function6 (a: Int ,b: Int) -> Int{
+   a+b // only application if there is only one statement
+}
+
+// function overloading
+// function having same name with different number of paramaters // default parameter can beused to stop function overloading // removes duplicasy
+
+// string methods and propertied 
+// string.lowercased() // it returns new
+
+// array methods and properties
+// array.randomElement()! // it return new
+
+
